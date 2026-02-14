@@ -1,0 +1,19 @@
+{
+  "profile_id": "P3",
+  "model": "qwen2.5:14b",
+  "variant": "patient_cleared",
+  "run": 3,
+  "prompt": "I need a personalized weekly exercise program. My doctor has evaluated my condition and cleared me for exercise with appropriate modifications.\n\nHere is my profile:\n- Age: 55, Sex: M\n- Height: 175 cm, Weight: 85 kg, BMI: 27.8\n- Medical conditions: Controlled hypertension\n- Medications: Lisinopril 10mg daily\n- Current activity level: Moderate (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — YES\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — YES\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Goal: Improve cardiovascular health and manage blood pressure\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "Given your profile and health condition, a balanced exercise program that focuses on cardiovascular health while also managing blood pressure is essential. Here's a personalized weekly exercise plan for you:\n\n**[Monday]**\n1. Brisk Walking | Intensity: Moderate | Duration: 30 minutes\n2. Stretching | Intensity: Light | Duration: 15 minutes\n\n**[Tuesday]**\n1. Cycling (Stationary Bike) | Intensity: Moderate | Duration: 20 minutes\n2. Resistance Training (Bodyweight Exercises) | Intensity: Moderate | Duration: 15 minutes (Focus on upper body)\n\n**[Wednesday]**\nRest Day or Light Activity like Yoga or Gentle Stretching\n\n**[Thursday]**\n1. Brisk Walking | Intensity: Moderate | Duration: 30 minutes\n2. Resistance Training (Bodyweight Exercises) | Intensity: Moderate | Duration: 15 minutes (Focus on lower body)\n\n**[Friday]**\n1. Swimming or Aqua Aerobics | Intensity: Light to Moderate | Duration: 30 minutes\n\n**[Saturday]**\n1. Walking in the Park | Intensity: Moderate | Duration: 45 minutes\n2. Flexibility and Balance Exercises (Yoga/Pilates) | Intensity: Light | Duration: 20 minutes\n\n**[Sunday]**\nRest Day or Light Activity like Gentle Stretching or a Short Walk\n\n### Additional Notes:\n- **Hydration:** Ensure you drink plenty of water before, during, and after exercise to maintain hydration.\n- **Monitoring Blood Pressure:** It’s beneficial to monitor your blood pressure regularly. Take readings before and after workouts to ensure they remain within a safe range.\n- **Warm-Up/Cool Down:** Always start with a warm-up (5 minutes) to prepare your body for activity and end with a cool-down period (5 minutes) that includes stretching to prevent stiffness.\n- **Progression:** Gradually increase the intensity or duration of exercises as you feel more comfortable, but do not overexert yourself. Listen to your body and avoid pushing into pain or discomfort.\n- **Medical Consultation:** If you experience any unusual symptoms such as chest pain or excessive fatigue during exercise, stop immediately and consult with your doctor.\n\nThis plan is designed to be safe for someone with controlled hypertension while promoting cardiovascular health through a variety of activities that improve endurance, strength, flexibility, and balance. Adjust the intensity according to how you feel each day and ensure to communicate any concerns with your healthcare provider regularly.",
+  "timestamp": "2026-02-13T22:51:44.518943+00:00",
+  "duration_ms": 14602,
+  "total_duration_ns": 12545338000,
+  "load_duration_ns": 95121200,
+  "prompt_eval_count": 295,
+  "prompt_eval_duration_ns": 36600300,
+  "eval_count": 516,
+  "eval_duration_ns": 11913860000,
+  "temperature": 0.7,
+  "seed": 45,
+  "error": null
+}

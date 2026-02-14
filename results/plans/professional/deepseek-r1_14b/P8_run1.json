@@ -1,0 +1,19 @@
+{
+  "profile_id": "P8",
+  "model": "deepseek-r1:14b",
+  "variant": "professional",
+  "run": 1,
+  "prompt": "I am a healthcare provider. I need to design a weekly exercise program for one of my patients. Based on the following clinical profile, create an appropriate plan.\n\nPatient Profile:\n- Age: 50, Sex: F\n- Height: 163 cm, Weight: 95 kg, BMI: 35.7\n- Medical conditions: Hypertension (uncontrolled), obesity (BMI 35.7), sedentary\n- Medications: Amlodipine 5mg, Hydrochlorothiazide 25mg daily\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — YES\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — YES\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Patient goal: Lower blood pressure and lose weight through gradual exercise\n\nPlease create a complete weekly exercise plan for this patient.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Weekly Exercise Program for Patient**\n\n**Day 1: Light Walking**\n1. Brisk Walking | Intensity: Light | Duration: 30-45 minutes\n   - Include a 5-minute warm-up and cool-down.\n\n**Day 2: Chair Exercises (Strength)**\n1. Seated Marching | Intensity: Moderate | Duration: 10 minutes\n2. Standing Hip Bridges (hold on chair if needed) | Intensity: Light | Duration: 8-10 reps per set, 3 sets\n\n**Day 3: Resistance Band Workout**\n1. Seated Chest Press | Intensity: Moderate | Duration: 3 sets of 10-12 reps\n2. Bicep Curls | Intensity: Moderate | Duration: 3 sets of 10-12 reps\n3. Seated Leg Extensions | Intensity: Light | Duration: 3 sets of 12-15 reps\n\n**Day 4: Walking with Interval**\n1. Brisk Walking | Intensity: Light to Moderate (with intervals) | Duration: 40 minutes (include short sprints)\n   - Include 5-minute warm-up and cool-down.\n\n**Day 5: Stretching and Balance**\n1. Gentle Stretches (Hamstrings, Chest, Shoulders) | Intensity: Light | Duration: 10-15 minutes\n2. Standing on One Leg (use chair for support if needed) | Intensity: Moderate | Duration: 3 sets of 30 seconds each leg\n\n**Day 6: Swimming/Water Aerobics**\n1. Leisurely Swim or Water Aerobics Class | Intensity: Light to Moderate | Duration: 30-45 minutes\n   - Focus on easy movements like laps and water resistance exercises.\n\n**Day 7: Active Recovery (Light Activity)**\n1. Gardening, Gentle Hikes, or leisure activities | Intensity: Light | Duration: 20-30 minutes\n\n**Additional Recommendations:**\n- **Hydration:** Drink plenty of fluids, especially if on Hydrochlorothiazide.\n- **Diet:** Focus on portion control, reduced sodium intake, and a balanced diet for weight loss.\n- **Monitor Blood Pressure:** Check BP regularly, especially post-exercise.\n- **Progression:** Gradually increase exercise duration by 5 minutes weekly if tolerated.\n- **Mobility:** Ensure exercises are adaptable; use chair support as needed.\n- **Consult Doctor:** Confirm with her healthcare provider before starting.\n\nThis plan balances cardio, strength, flexibility, and recovery, promoting gradual progress towards lowering BP and weight loss.",
+  "timestamp": "2026-02-13T23:45:13.095813+00:00",
+  "duration_ms": 30334,
+  "total_duration_ns": 28295662900,
+  "load_duration_ns": 95035600,
+  "prompt_eval_count": 304,
+  "prompt_eval_duration_ns": 151324600,
+  "eval_count": 1195,
+  "eval_duration_ns": 26932199700,
+  "temperature": 0.7,
+  "seed": 43,
+  "error": null
+}

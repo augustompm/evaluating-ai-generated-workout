@@ -1,0 +1,19 @@
+{
+  "profile_id": "P6",
+  "model": "deepseek-r1:14b",
+  "variant": "professional",
+  "run": 3,
+  "prompt": "I am a healthcare provider. I need to design a weekly exercise program for one of my patients. Based on the following clinical profile, create an appropriate plan.\n\nPatient Profile:\n- Age: 70, Sex: F\n- Height: 158 cm, Weight: 65 kg, BMI: 26.0\n- Medical conditions: History of myocardial infarction (2 years ago), stable angina\n- Medications: Aspirin 81mg, Atenolol 50mg, Atorvastatin 40mg daily\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — YES\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — YES\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — YES\n- Patient goal: Safely return to physical activity after cardiac event\n\nPlease create a complete weekly exercise plan for this patient.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Weekly Exercise Program for 70-Year-Old Female Patient**\n\n**Day 1: Monday**\n1. **Moderate Walking** | Intensity: Moderate | Duration: 20 minutes\n   - Warm-up with 5 minutes of slow walking, then 15 minutes at a steady pace.\n\n**Day 2: Tuesday**\n1. **Seated Strength Training** | Intensity: Light | Duration: 20 minutes\n   - Focus on upper body exercises like seated chest presses and light resistance band work to avoid straining the heart.\n\n**Day 3: Wednesday**\n1. **Cool-Down Walk** | Intensity: Light | Duration: 15 minutes\n   - Short walk focusing on relaxation and recovery.\n2. **Stretching Routine** | Intensity: Gentle | Duration: 10 minutes\n   - Include stretches for major muscle groups to improve flexibility.\n\n**Day 4: Thursday**\n1. **Low-Impact Aerobic Activity (e.g., Stationary Cycling)** | Intensity: Moderate | Duration: 20 minutes\n   - Use a stationary bike at a moderate pace, ensuring no chest pain occurs.\n\n**Day 5: Friday**\n1. **Seated Balance Exercises** | Intensity: Light | Duration: 15 minutes\n   - Focus on balance to reduce fall risk, such as leg lifts and ankle pumps while seated.\n\n**Day 6: Saturday**\n- **Rest Day or Active Recovery**\n\n**Day 7: Sunday**\n- **Light Activity or Rest Day**\n\n**Additional Notes and Recommendations:**\n\n1. **Monitor Symptoms:** Encourage the patient to stop exercising immediately if she experiences chest pain, dizziness, or other concerning symptoms.\n\n2. **Hydration and Nutrition:** Emphasize staying hydrated before, during, and after exercise, and ensure a balanced diet to support heart health.\n\n3. **Gradual Progression:** As her fitness improves over weeks, gradually increase the duration and intensity of her exercises under medical supervision.\n\n4. **Avoid Heavy Lifting:** Initially, focus on low-impact activities and avoid heavy lifting or high-intensity exercises.\n\n5. **Medical Supervision:** Ensure all exercise is conducted under the supervision of a healthcare provider, especially given her history of myocardial infarction and stable angina.\n\n6. **Cool-Downs and Warm-Ups:** Always include these to prevent injury and allow the body to adjust safely to exercise demands.\n\nThis program is designed to be safe and effective for someone with a cardiac history, focusing on gradual improvement in fitness while minimizing risk.",
+  "timestamp": "2026-02-13T23:42:53.340575+00:00",
+  "duration_ms": 34656,
+  "total_duration_ns": 32598596500,
+  "load_duration_ns": 97332700,
+  "prompt_eval_count": 308,
+  "prompt_eval_duration_ns": 25246400,
+  "eval_count": 1379,
+  "eval_duration_ns": 31010003100,
+  "temperature": 0.7,
+  "seed": 45,
+  "error": null
+}

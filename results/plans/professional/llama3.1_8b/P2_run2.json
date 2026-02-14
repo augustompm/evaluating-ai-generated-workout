@@ -1,0 +1,19 @@
+{
+  "profile_id": "P2",
+  "model": "llama3.1:8b",
+  "variant": "professional",
+  "run": 2,
+  "prompt": "I am a healthcare provider. I need to design a weekly exercise program for one of my patients. Based on the following clinical profile, create an appropriate plan.\n\nPatient Profile:\n- Age: 35, Sex: F\n- Height: 165 cm, Weight: 62 kg, BMI: 22.8\n- Medical conditions: None (sedentary lifestyle)\n- Medications: None\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — NO\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Patient goal: Start a regular exercise routine to improve general health\n\nPlease create a complete weekly exercise plan for this patient.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "Based on the patient's profile and goal to start a regular exercise routine for general health improvement, I have created a weekly exercise plan. This plan will gradually increase in intensity and duration over the weeks as the patient becomes more comfortable with physical activity.\n\n**Monday**\n1. Brisk Walking | Intensity: Moderate | Duration: 20 minutes\n2. Seated Leg Raises | Intensity: Light | Duration: 3 sets of 10 reps, 30 seconds rest between sets\n\n**Tuesday (Upper Body)**\n1. Wall Push-Ups | Intensity: Moderate | Duration: 3 sets of 10 reps, 30 seconds rest between sets\n2. Arm Circles | Intensity: Light | Duration: 3 sets of 15 reps, 30 seconds rest between sets\n\n**Wednesday (Rest Day)**\n\n**Thursday**\n1. Bodyweight Squats | Intensity: Moderate | Duration: 3 sets of 10 reps, 30 seconds rest between sets\n2. Seated Forward Fold Stretch | Intensity: Light | Duration: 30 seconds per leg\n\n**Friday**\n1. Brisk Walking | Intensity: Moderate | Duration: 25 minutes (increased from Monday)\n2. Plank Hold | Intensity: Moderate | Duration: 3 sets of 30-second hold, 30 seconds rest between sets\n\n**Saturday (Lower Body)**\n1. Calf Raises on Stairs | Intensity: Vigorous | Duration: 3 sets of 15 reps, 30 seconds rest between sets\n2. Seated Leg Stretch | Intensity: Light | Duration: 30 seconds per leg\n\n**Sunday (Rest Day)**\n\nAdditional Notes and Recommendations:\n\n- Warm-up with 5-minute stretching before each session.\n- Cool-down with static stretches after each exercise to improve flexibility and prevent soreness.\n- Monitor the patient's progress and adjust the plan as necessary. Gradually increase intensity, duration, or frequency of workouts based on their comfort level and fitness improvements.\n- Encourage hydration throughout the day, aiming for at least 8 cups (64 ounces) of water daily.\n- Schedule regular follow-ups to discuss any challenges, concerns, or progress made during the week.\n\nThis plan introduces a mix of aerobic exercise (brisk walking), strength training (bodyweight squats and push-ups), flexibility exercises (stretching), and high-intensity activities (calf raises on stairs) to improve overall fitness and reduce sedentary behavior. Remember to continually assess the patient's response to the program and make adjustments as necessary for optimal progress and safety.",
+  "timestamp": "2026-02-13T22:38:17.494776+00:00",
+  "duration_ms": 9088,
+  "total_duration_ns": 7067275600,
+  "load_duration_ns": 118968500,
+  "prompt_eval_count": 275,
+  "prompt_eval_duration_ns": 24898400,
+  "eval_count": 527,
+  "eval_duration_ns": 6723884400,
+  "temperature": 0.7,
+  "seed": 44,
+  "error": null
+}

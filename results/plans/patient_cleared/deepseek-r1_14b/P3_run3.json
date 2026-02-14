@@ -1,0 +1,19 @@
+{
+  "profile_id": "P3",
+  "model": "deepseek-r1:14b",
+  "variant": "patient_cleared",
+  "run": 3,
+  "prompt": "I need a personalized weekly exercise program. My doctor has evaluated my condition and cleared me for exercise with appropriate modifications.\n\nHere is my profile:\n- Age: 55, Sex: M\n- Height: 175 cm, Weight: 85 kg, BMI: 27.8\n- Medical conditions: Controlled hypertension\n- Medications: Lisinopril 10mg daily\n- Current activity level: Moderate (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — YES\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — YES\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Goal: Improve cardiovascular health and manage blood pressure\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Personalized Weekly Exercise Program**\n\n**Day 1: Aerobic Exercise (Walking)**\n- Brisk walking\n- Intensity: Moderate\n- Duration: 30 minutes\n\n**Day 2: Strength Training (Upper Body)**\n- Light weights or resistance bands\n- Focus on major upper body muscles (chest, back, shoulders)\n- Repetitions: 12-15 per exercise\n- Sets: 2-3\n\n**Day 3: Aerobic Exercise (Cycling)**\n- Stationary bike or road cycling\n- Intensity: Moderate to vigorous\n- Duration: 30 minutes\n\n**Day 4: Core and Flexibility**\n- Core exercises (planks, bird-dog)\n- Stretching focusing on major muscle groups\n- Duration: 20-30 minutes\n\n**Day 5: Aerobic Exercise (Swimming)**\n- Gentle swimming or water aerobics\n- Intensity: Moderate\n- Duration: 30 minutes\n\n**Day 6: Strength Training (Lower Body)**\n- Focus on legs and glutes\n- Repetitions: 12-15 per exercise\n- Sets: 2-3\n\n**Day 7: Active Recovery or Flexibility**\n- Light walking or yoga\n- Stretching to improve flexibility and balance\n- Duration: 20-30 minutes\n\n**Additional Recommendations:**\n- Warm-up and cool-down with light activities before and after each workout.\n- Stay hydrated, especially during aerobic sessions.\n- Monitor blood pressure regularly and consult the doctor if any unusual symptoms occur during exercise.\n\nThis program balances aerobic, strength, flexibility, and recovery needs while considering his health conditions. Adjustments can be made gradually under medical supervision as he progresses.",
+  "timestamp": "2026-02-13T23:23:23.408136+00:00",
+  "duration_ms": 24123,
+  "total_duration_ns": 22082200200,
+  "load_duration_ns": 119981900,
+  "prompt_eval_count": 269,
+  "prompt_eval_duration_ns": 26623300,
+  "eval_count": 903,
+  "eval_duration_ns": 20988998100,
+  "temperature": 0.7,
+  "seed": 45,
+  "error": null
+}

@@ -1,0 +1,19 @@
+{
+  "profile_id": "P5",
+  "model": "deepseek-r1:14b",
+  "variant": "patient",
+  "run": 2,
+  "prompt": "I need a personalized weekly exercise program and I'm looking for professional guidance.\n\nHere is my profile:\n- Age: 45, Sex: M\n- Height: 180 cm, Weight: 90 kg, BMI: 27.8\n- Medical conditions: Knee osteoarthritis (bilateral, mild-moderate)\n- Medications: Ibuprofen as needed for pain\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — NO\n  Q6: Bone or joint problem — YES\n  Q7: Doctor prescribing supervised activity — NO\n- Goal: Reduce knee pain and improve joint mobility through safe exercise\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Personalized Weekly Exercise Program for a 45-Year-Old Male with Knee Osteoarthritis**\n\n**Objective:** Reduce knee pain and improve joint mobility through safe, low-impact exercises.\n\n**Weekly Plan:**\n\n1. **Monday - Aquajogging (Low Impact Cardio)**\n   - Duration: 30 minutes\n   - Focus: Gentle swimming or aqua aerobics in a pool to reduce joint stress and enhance cardiovascular fitness.\n\n2. **Tuesday - Seated Strength Training**\n   - Exercise 1: Seated Leg Extensions with light resistance bands\n     - Sets/Reps: 3 sets of 10-12 reps\n   - Exercise 2: Seated Hamstring Curls using a band for resistance\n     - Sets/Reps: 3 sets of 10-12 reps\n\n3. **Wednesday - Gentle Yoga**\n   - Duration: 30 minutes\n   - Focus: Poses emphasizing hip and knee flexibility, with modifications as needed.\n\n4. **Thursday - Pilates (Core Strength & Alignment)**\n   - Duration: 30 minutes\n   - Exercises: Concentrate on core stability and proper alignment to support knee joints.\n\n5. **Friday - Tai Chi (Balance & Control)**\n   - Duration: 20-30 minutes\n   - Focus: Slow, controlled movements to improve balance and reduce fall risk.\n\n6. **Saturday - Light Resistance Band Workouts**\n   - Exercise 1: Standing Quadriceps Stretch with a band for resistance\n     - Sets/Reps: 3 sets of 8-10 reps per leg\n   - Exercise 2: Hamstring Stretch using a band\n     - Sets/Reps: 3 sets of 8-10 reps per leg\n\n7. **Sunday - Rest or Light Activity**\n   - Activity: Gentle walking, stretching, or leisurely cycling to promote recovery.\n\n**Additional Notes:**\n\n- **Progression:** Gradually increase exercise duration or intensity as strength improves, ensuring no increased pain.\n- **Listen to Your Body:** If any exercise causes discomfort, stop and seek professional advice if necessary.\n- **Balance Training:** Consider adding single-leg stands or balance board exercises (if available) gradually.\n- **Hydration & Nutrition:** Stay hydrated and maintain a balanced diet to support joint health.\n\nThis plan balances low-impact cardio, strength, flexibility, and balance training to safely reduce knee pain and improve mobility. Adjustments should be made based on individual tolerance and progress.",
+  "timestamp": "2026-02-13T23:11:23.206300+00:00",
+  "duration_ms": 37135,
+  "total_duration_ns": 35066062600,
+  "load_duration_ns": 104870400,
+  "prompt_eval_count": 273,
+  "prompt_eval_duration_ns": 25242500,
+  "eval_count": 1425,
+  "eval_duration_ns": 33408313100,
+  "temperature": 0.7,
+  "seed": 44,
+  "error": null
+}

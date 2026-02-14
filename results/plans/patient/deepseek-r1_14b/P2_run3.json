@@ -1,0 +1,19 @@
+{
+  "profile_id": "P2",
+  "model": "deepseek-r1:14b",
+  "variant": "patient",
+  "run": 3,
+  "prompt": "I need a personalized weekly exercise program and I'm looking for professional guidance.\n\nHere is my profile:\n- Age: 35, Sex: F\n- Height: 165 cm, Weight: 62 kg, BMI: 22.8\n- Medical conditions: None (sedentary lifestyle)\n- Medications: None\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — NO\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Goal: Start a regular exercise routine to improve general health\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Personalized Weekly Exercise Program**\n\n**[Monday]**\n1. Brisk Walking | Intensity: Moderate | Duration: 30 minutes\n   - Include a 5-minute warm-up walk.\n   - Focus on maintaining a steady pace.\n\n2. Cool Down Stretches | Intensity: Light | Duration: 5 minutes\n   - Stretch major muscle groups post-walk.\n\n**[Tuesday]**\n1. Upper Body Strength Training | Intensity: Moderate | Duration: 30 minutes\n   - Push-Ups (Modify on knees if needed) - 2 sets of 10-15 reps.\n   - Dumbbell Shoulder Press - 2 sets of 8-12 reps.\n   - Tricep Dips - 2 sets of 8-12 reps.\n\n**[Wednesday]**\n1. Flexibility & Balance | Intensity: Light | Duration: 30 minutes\n   - Include yoga poses like Downward Dog, Warrior II, and Tree Pose.\n   - Practice Single-Leg Stands for balance.\n\n**[Thursday]**\n1. Cardiovascular Activity (Swimming or Cycling) | Intensity: Moderate | Duration: 30 minutes\n   - Start with a gentle pace to avoid strain.\n\n2. Cool Down Stretching | Intensity: Light | Duration: 5 minutes\n\n**[Friday]**\n1. Lower Body Strength Training | Intensity: Moderate | Duration: 30 minutes\n   - Squats (Bodyweight or with support) - 2 sets of 8-12 reps.\n   - Lunges - 2 sets of 8-10 per leg.\n   - Glute Bridges - 2 sets of 10-15 reps.\n\n**[Saturday]**\n1. Light Cardio & Enjoyment | Intensity: Light to Moderate | Duration: 30 minutes\n   - Dance workout or leisurely hike.\n\n**[Sunday]**\n1. Rest Day | Activity: Gentle Stretching or Relaxation | Duration: As needed\n\n**Additional Notes and Recommendations:**\n\n- **Hydration:** Drink plenty of water throughout the day, especially before, during, and after exercise.\n- **Nutrition:** Maintain a balanced diet rich in fruits, vegetables, lean proteins, and whole grains to support energy levels and recovery.\n- **Sleep:** Aim for 7-9 hours of quality sleep each night to aid muscle recovery and overall health.\n- **Listen to Your Body:** If you feel excessively tired or experience any discomfort, consider modifying the intensity or duration of your exercises. Rest is crucial for recovery.\n- **Gradual Progression:** As you build strength and endurance, gradually increase the intensity or duration of your workouts.\n- **Consistency:** Try to stick with this routine but be flexible if life gets in the way. Even a short workout is better than none.\n\nThis plan is designed to help you establish a regular exercise habit while focusing on overall health and well-being. Adjustments can be made as needed based on how you feel each week.",
+  "timestamp": "2026-02-13T23:06:58.789224+00:00",
+  "duration_ms": 32942,
+  "total_duration_ns": 30904526900,
+  "load_duration_ns": 98309400,
+  "prompt_eval_count": 259,
+  "prompt_eval_duration_ns": 25388100,
+  "eval_count": 1294,
+  "eval_duration_ns": 29529324500,
+  "temperature": 0.7,
+  "seed": 45,
+  "error": null
+}

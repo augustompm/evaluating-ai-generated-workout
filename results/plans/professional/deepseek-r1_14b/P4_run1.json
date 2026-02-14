@@ -1,0 +1,19 @@
+{
+  "profile_id": "P4",
+  "model": "deepseek-r1:14b",
+  "variant": "professional",
+  "run": 1,
+  "prompt": "I am a healthcare provider. I need to design a weekly exercise program for one of my patients. Based on the following clinical profile, create an appropriate plan.\n\nPatient Profile:\n- Age: 60, Sex: F\n- Height: 160 cm, Weight: 85 kg, BMI: 33.2\n- Medical conditions: Type 2 diabetes, obesity (BMI 33.2)\n- Medications: Metformin 1000mg twice daily\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — YES\n  Q5: Currently taking medication — YES\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Patient goal: Manage blood sugar levels and lose weight through exercise\n\nPlease create a complete weekly exercise plan for this patient.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Weekly Exercise Plan for 60-Year-Old Female with Type 2 Diabetes and Obesity**\n\n**Monday:**\n1. Walking | Intensity: Moderate | Duration: 30 minutes\n   - Start with a 5-minute warm-up walk.\n\n**Tuesday:**\n1. Resistance Band Exercises (Seated or Standing) | Intensity: Light-Moderate | Duration: 20 minutes\n   - Include exercises like seated rows, bicep curls, and leg extensions.\n   - End with a 5-minute cool-down stretch.\n\n**Wednesday:**\n1. Cycling or Walking | Intensity: Moderate | Duration: 30 minutes\n   - Choose low-impact options to protect joints.\n\n**Thursday:**\n1. Resistance Band Exercises (Continued) | Intensity: Light-Moderate | Duration: 20 minutes\n   - Focus on different muscle groups each day.\n   - End with a 5-minute cool-down stretch.\n\n**Friday:**\n1. Walking or Swimming | Intensity: Moderate | Duration: 30 minutes\n   - Swimming is excellent for low-impact cardio.\n\n**Saturday:**\n1. Flexibility and Balance Exercises | Intensity: Light | Duration: 20 minutes\n   - Include yoga poses, tai chi, or simple stretching.\n   - Emphasize balance to prevent falls.\n\n**Sunday:**\n1. Rest Day or Gentle Activity | Intensity: Very Light (optional) | Duration: 15-30 minutes (if active)\n   - Allow recovery time; light activities like gardening are fine.\n\n**Additional Notes and Recommendations:**\n\n- **Blood Sugar Monitoring:** Check blood sugar before and after exercise. Have a carbohydrate snack nearby if needed.\n- **Hydration:** Drink plenty of water throughout the day, especially during and after exercise.\n- **Footwear:** Wear comfortable, supportive shoes to prevent injuries.\n- **Gradual Progression:** Start with shorter sessions and gradually increase duration as her fitness improves.\n- **Warm-Up/Cool Down:** Always include a 5-minute warm-up and cool-down to prevent injury.\n- **Variety:** Encourage trying different exercises to keep the routine engaging.\n\nThis plan balances aerobic and strength training, ensuring gradual progression without overexertion. Adjustments can be made based on her progress and preferences.",
+  "timestamp": "2026-02-13T23:38:33.506154+00:00",
+  "duration_ms": 34814,
+  "total_duration_ns": 32757267000,
+  "load_duration_ns": 95434400,
+  "prompt_eval_count": 290,
+  "prompt_eval_duration_ns": 140378900,
+  "eval_count": 1379,
+  "eval_duration_ns": 31122141700,
+  "temperature": 0.7,
+  "seed": 43,
+  "error": null
+}

@@ -1,0 +1,19 @@
+{
+  "profile_id": "P2",
+  "model": "llama3.1:8b",
+  "variant": "patient_cleared",
+  "run": 2,
+  "prompt": "I need a personalized weekly exercise program. My doctor has evaluated my condition and cleared me for exercise with appropriate modifications.\n\nHere is my profile:\n- Age: 35, Sex: F\n- Height: 165 cm, Weight: 62 kg, BMI: 22.8\n- Medical conditions: None (sedentary lifestyle)\n- Medications: None\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — NO\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Goal: Start a regular exercise routine to improve general health\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "Based on your profile and doctor's clearance, I've created a personalized weekly exercise program for you. Please note that this is just a starting point, and you may need to adjust the intensity or duration as you progress.\n\n**Monday**\n1. Brisk Walking | Intensity: Moderate | Duration: 30 minutes\n2. Seated Leg Raises | Intensity: Light | Duration: 3 sets of 10 reps (hold for 1-2 seconds)\n\n**Tuesday**\n1. Bodyweight Squats | Intensity: Moderate | Duration: 3 sets of 12 reps\n2. Seated Arm Raises | Intensity: Light | Duration: 3 sets of 15 reps\n\n**Wednesday**\n1. Gentle Yoga Flow (e.g., Hatha or Yin) | Intensity: Light to Moderate | Duration: 30-40 minutes\n\t* Focus on gentle stretches and movements, avoiding any intense poses.\n\n**Thursday**\n1. Brisk Walking | Intensity: Moderate | Duration: 35 minutes\n2. Wall Sit | Intensity: Moderate | Duration: 3 sets of 60-second hold\n\n**Friday**\n1. Resistance Band Exercises (e.g., bicep curls, tricep extensions) | Intensity: Moderate | Duration: 3 sets of 12 reps each\n2. Seated Leg Press | Intensity: Light | Duration: 3 sets of 10 reps\n\n**Saturday**\n1. Leisurely Swimming or Water-Based Exercise (if accessible) | Intensity: Light to Moderate | Duration: 30-40 minutes\n\t* If not feasible, consider a relaxing walk or bike ride.\n2. Seated Shoulder Rolls | Intensity: Light | Duration: 3 sets of 10 reps\n\n**Sunday**\n1. Gentle Stretching or Foam Rolling | Intensity: Light | Duration: 15-20 minutes\n\t* Focus on self-myofascial release and static stretches.\n\nAdditional Notes:\n\n* Warm up with 5-10 minutes of light cardio (e.g., walking, marching in place) before each workout.\n* Cool down with 5-10 minutes of stretching after each session.\n* Listen to your body and rest when needed. If you experience any discomfort or pain, stop the exercise immediately.\n* Gradually increase the duration and intensity as you become more comfortable with the routine.\n* Incorporate a balanced diet to support your exercise routine and overall health.\n\nRemember to consult with your doctor if you have any concerns or questions about this program. It's also essential to monitor your progress, track your workouts, and adjust the plan as needed to ensure a safe and effective fitness journey.",
+  "timestamp": "2026-02-13T22:34:25.532213+00:00",
+  "duration_ms": 9134,
+  "total_duration_ns": 7114344700,
+  "load_duration_ns": 119580700,
+  "prompt_eval_count": 269,
+  "prompt_eval_duration_ns": 13330600,
+  "eval_count": 542,
+  "eval_duration_ns": 6826963300,
+  "temperature": 0.7,
+  "seed": 44,
+  "error": null
+}

@@ -1,0 +1,19 @@
+{
+  "profile_id": "P2",
+  "model": "deepseek-r1:14b",
+  "variant": "patient_cleared",
+  "run": 1,
+  "prompt": "I need a personalized weekly exercise program. My doctor has evaluated my condition and cleared me for exercise with appropriate modifications.\n\nHere is my profile:\n- Age: 35, Sex: F\n- Height: 165 cm, Weight: 62 kg, BMI: 22.8\n- Medical conditions: None (sedentary lifestyle)\n- Medications: None\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — NO\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Goal: Start a regular exercise routine to improve general health\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Personalized Weekly Exercise Program**\n\n**[Monday]**\n1. Walking | Intensity: Moderate | Duration: 30 minutes\n2. Bodyweight Squats | Intensity: Light | Duration: 10 minutes (3 sets of 15 reps)\n3. Push-Ups | Intensity: Light | Duration: 10 minutes (3 sets of 10-12 reps)\n4. Plank | Intensity: Light | Duration: 10 minutes (3 sets of 30 seconds hold)\n\n**[Tuesday]**\n1. Active Recovery (Light Walking or Yoga) | Intensity: Light | Duration: 30 minutes\n\n**[Wednesday]**\n1. Cycling | Intensity: Moderate | Duration: 30 minutes\n2. Glute Bridges | Intensity: Light | Duration: 10 minutes (3 sets of 15 reps)\n3. Side Plank | Intensity: Light | Duration: 10 minutes (3 sets of 30 seconds hold per side)\n\n**[Thursday]**\n1. Strength Training (Lunges and Glute Bridges) | Intensity: Moderate | Duration: 45 minutes\n2. Resistance Band Rows | Intensity: Moderate | Duration: 10 minutes (3 sets of 12 reps)\n3. Overhead Shoulder Press with Light Weights | Intensity: Moderate | Duration: 10 minutes (3 sets of 12 reps)\n\n**[Friday]**\n1. Running or Fast-Paced Walking | Intensity: Vigorous | Duration: 25-30 minutes\n2. Cool Down Walk | Intensity: Light | Duration: 5-10 minutes\n\n**[Saturday]**\n1. Active Recovery (Swimming or Walking) | Intensity: Light | Duration: 30-45 minutes\n\n**[Sunday]**\n1. Rest and Flexibility | Intensity: Very Light | Duration: 20-30 minutes\n   - Gentle Stretching and Foam Rolling\n\n---\n\n### Additional Notes:\n- **Hydration:** Drink plenty of water before, during, and after exercise.\n- **Clothing:** Wear comfortable, breathable clothing for your workouts.\n- **Gradual Progression:** If you feel comfortable, gradually increase the duration or intensity by 10-15 minutes per week.\n- **Cool Down:** Always include a cool-down period after vigorous activity to bring your heart rate back to normal.\n- **Listen to Your Body:** If you experience any unusual symptoms like dizziness, chest pain, or excessive fatigue during exercise, stop immediately and seek medical advice.\n\nThis plan is designed to help you build consistency while gradually increasing your fitness level. Enjoy your journey toward better health!",
+  "timestamp": "2026-02-13T23:20:32.087516+00:00",
+  "duration_ms": 35034,
+  "total_duration_ns": 33005364300,
+  "load_duration_ns": 100702700,
+  "prompt_eval_count": 267,
+  "prompt_eval_duration_ns": 130830400,
+  "eval_count": 1356,
+  "eval_duration_ns": 31397266700,
+  "temperature": 0.7,
+  "seed": 43,
+  "error": null
+}

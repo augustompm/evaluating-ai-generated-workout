@@ -1,0 +1,19 @@
+{
+  "profile_id": "P7",
+  "model": "llama3.1:8b",
+  "variant": "patient",
+  "run": 1,
+  "prompt": "I need a personalized weekly exercise program and I'm looking for professional guidance.\n\nHere is my profile:\n- Age: 30, Sex: M\n- Height: 182 cm, Weight: 80 kg, BMI: 24.2\n- Medical conditions: None\n- Medications: None\n- Current activity level: High (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — NO\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Goal: Enhance endurance and strength for recreational sports\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "Based on your profile and goals, I've created a personalized weekly exercise program for you.\n\n**Monday**\n\n1. Brisk Walking | Intensity: Moderate | Duration: 30 minutes\n2. Bodyweight Squats | Intensity: Light-Moderate | Duration: 3 sets of 12 reps, 60 seconds rest between sets\n3. Push-ups | Intensity: Light-Moderate | Duration: 3 sets of 12 reps, 60 seconds rest between sets\n\n**Tuesday**\n\n1. Jogging or Running | Intensity: Vigorous | Duration: 20 minutes (start with a 5-minute warm-up and cool-down)\n2. Dumbbell Chest Press | Intensity: Light-Moderate | Duration: 3 sets of 12 reps, 60 seconds rest between sets\n3. Russian Twists | Intensity: Moderate | Duration: 3 sets of 15 reps (each side), 60 seconds rest between sets\n\n**Wednesday**\n\n1. Rest day or Active Recovery (e.g., light yoga, stretching)\n\n**Thursday**\n\n1. Swimming or Cycling | Intensity: Moderate-Vigorous | Duration: 30 minutes\n2. Lunges | Intensity: Light-Moderate | Duration: 3 sets of 12 reps (per leg), 60 seconds rest between sets\n3. Planks | Intensity: Moderate | Duration: Hold for 30-60 seconds, 3 sets\n\n**Friday**\n\n1. HIIT (High-Intensity Interval Training) workout:\n\t* Sprint intervals (e.g., sprints, burpees, jump squats): 20 seconds of high-intensity exercise followed by 40 seconds of rest\n\t* Repeat for 15-20 minutes\n2. Leg Raises | Intensity: Moderate | Duration: 3 sets of 12 reps, 60 seconds rest between sets\n\n**Saturday**\n\n1. Outdoor Activity (e.g., hiking, team sports) | Intensity: Vigorous | Duration: 45-60 minutes\n2. Cool-down stretching and foam rolling to aid recovery\n\n**Sunday**\n\n1. Rest day or Active Recovery (e.g., light yoga, stretching)\n\nAdditional notes and recommendations:\n\n* As you're already at a high activity level, we'll focus on progressive overload and variety in your workouts.\n* Make sure to warm up properly before each session with 5-10 minutes of light cardio and dynamic stretching.\n* Monitor your progress by tracking your workouts, weight, and body fat percentage (if possible).\n* Incorporate proper nutrition and hydration to support your training. Aim for a balanced diet with plenty of protein, complex carbohydrates, and healthy fats.\n* As you get stronger and more comfortable, consider increasing the intensity or duration of your workouts.\n\nRemember to listen to your body and adjust the plan as needed. If you experience any discomfort or pain, stop the exercise immediately and consult with a healthcare professional if necessary.",
+  "timestamp": "2026-02-13T22:33:05.290570+00:00",
+  "duration_ms": 9933,
+  "total_duration_ns": 7908469400,
+  "load_duration_ns": 117673400,
+  "prompt_eval_count": 255,
+  "prompt_eval_duration_ns": 71492900,
+  "eval_count": 599,
+  "eval_duration_ns": 7433509400,
+  "temperature": 0.7,
+  "seed": 43,
+  "error": null
+}

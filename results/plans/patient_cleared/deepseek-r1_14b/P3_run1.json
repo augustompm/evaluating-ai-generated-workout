@@ -1,0 +1,19 @@
+{
+  "profile_id": "P3",
+  "model": "deepseek-r1:14b",
+  "variant": "patient_cleared",
+  "run": 1,
+  "prompt": "I need a personalized weekly exercise program. My doctor has evaluated my condition and cleared me for exercise with appropriate modifications.\n\nHere is my profile:\n- Age: 55, Sex: M\n- Height: 175 cm, Weight: 85 kg, BMI: 27.8\n- Medical conditions: Controlled hypertension\n- Medications: Lisinopril 10mg daily\n- Current activity level: Moderate (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — YES\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — YES\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Goal: Improve cardiovascular health and manage blood pressure\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Personalized Weekly Exercise Program for [Name]**\n\n**Monday: Brisk Walking**\n1. Warm-up: 5 minutes of gentle walking\n2. Main Activity: 30 minutes of moderate-paced walking\n3. Cool Down: 5 minutes of slow walking\n\n**Tuesday: Upper Body Strength Training**\n1. Warm-up: 5 minutes marching in place\n2. Exercises:\n   - Chest presses (light weights or bands)\n   - Dumbbell rows\n   - Shoulder presses\n   - Bicep curls and tricep extensions\n   - Planks for core strength\n3. Cool Down: 10 minutes of stretching focusing on upper body\n\n**Wednesday: Rest or Light Activity**\n- Engage in gentle activities like yoga or leisurely walking if feeling up to it.\n\n**Thursday: Moderate Cycling**\n1. Warm-up: 5 minutes easy pedaling\n2. Main Activity: 30 minutes moderate cycling (stationary or outdoor)\n3. Include intervals: Alternate between 1 minute of higher intensity and 2 minutes steady pace for 10-15 minutes.\n4. Cool Down: 5 minutes easy pedaling\n\n**Friday: Lower Body Strength Training**\n1. Warm-up: 5 minutes dynamic stretches\n2. Exercises:\n   - Squats (bodyweight or light weights)\n   - Lunges\n   - Deadlifts (using resistance bands)\n   - Leg presses\n   - Glute bridges for core and lower body\n3. Cool Down: 10 minutes stretching lower body\n\n**Saturday: Flexibility and Balance Training**\n1. Warm-up: 5 minutes gentle movement\n2. Exercises:\n   - Static stretches focusing on all major muscle groups\n   - Balance exercises like single-leg stands or tai chi moves\n3. Cool Down: Relaxation techniques, deep breathing\n\n**Sunday: Leisurely Walk or Rest**\n- Take a leisurely walk at a comfortable pace or rest completely.\n\n**Additional Recommendations:**\n- **Hydration:** Drink plenty of water before, during, and after exercise.\n- **Monitor Blood Pressure:** Check BP before and after each session. If any dizziness or chest discomfort occurs, stop and seek medical advice.\n- **Progressive Overload:** Gradually increase resistance in strength training as tolerated.\n- **Diet and Sleep:** Maintain a balanced diet low in sodium and rich in fruits/vegetables; aim for 7-8 hours of sleep per night.\n\nThis program balances cardiovascular health with strength and flexibility, ensuring safety and effectiveness for someone managing hypertension. Adjust intensity based on how you feel and consult healthcare providers if necessary.",
+  "timestamp": "2026-02-13T23:22:27.903881+00:00",
+  "duration_ms": 48596,
+  "total_duration_ns": 46528498100,
+  "load_duration_ns": 102068700,
+  "prompt_eval_count": 269,
+  "prompt_eval_duration_ns": 133600400,
+  "eval_count": 1890,
+  "eval_duration_ns": 44339541300,
+  "temperature": 0.7,
+  "seed": 43,
+  "error": null
+}

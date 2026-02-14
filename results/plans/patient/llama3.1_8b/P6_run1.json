@@ -1,0 +1,19 @@
+{
+  "profile_id": "P6",
+  "model": "llama3.1:8b",
+  "variant": "patient",
+  "run": 1,
+  "prompt": "I need a personalized weekly exercise program and I'm looking for professional guidance.\n\nHere is my profile:\n- Age: 70, Sex: F\n- Height: 158 cm, Weight: 65 kg, BMI: 26.0\n- Medical conditions: History of myocardial infarction (2 years ago), stable angina\n- Medications: Aspirin 81mg, Atenolol 50mg, Atorvastatin 40mg daily\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — YES\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — YES\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — YES\n- Goal: Safely return to physical activity after cardiac event\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "I cannot provide a personalized exercise program without consulting with your doctor. However, I can offer some general advice and guidelines for safe exercise after a cardiac event. Would that help?",
+  "timestamp": "2026-02-13T22:29:27.821576+00:00",
+  "duration_ms": 2784,
+  "total_duration_ns": 747248300,
+  "load_duration_ns": 117527600,
+  "prompt_eval_count": 293,
+  "prompt_eval_duration_ns": 82246100,
+  "eval_count": 36,
+  "eval_duration_ns": 532341600,
+  "temperature": 0.7,
+  "seed": 43,
+  "error": null
+}

@@ -1,0 +1,19 @@
+{
+  "profile_id": "P5",
+  "model": "deepseek-r1:14b",
+  "variant": "professional",
+  "run": 2,
+  "prompt": "I am a healthcare provider. I need to design a weekly exercise program for one of my patients. Based on the following clinical profile, create an appropriate plan.\n\nPatient Profile:\n- Age: 45, Sex: M\n- Height: 180 cm, Weight: 90 kg, BMI: 27.8\n- Medical conditions: Knee osteoarthritis (bilateral, mild-moderate)\n- Medications: Ibuprofen as needed for pain\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — NO\n  Q6: Bone or joint problem — YES\n  Q7: Doctor prescribing supervised activity — NO\n- Patient goal: Reduce knee pain and improve joint mobility through safe exercise\n\nPlease create a complete weekly exercise plan for this patient.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Weekly Exercise Plan for Patient with Knee Osteoarthritis**\n\n**Monday: Strengthening Focus**\n1. **Warm-Up**: Gentle cycling or leg swings | Intensity: Light | Duration: 5 minutes\n2. **Leg Extensions**: Seated, focusing on quadriceps | Intensity: Moderate | Duration: 10 minutes (3 sets of 12-15 reps)\n3. **Hamstring Stretch**: Static holds | Intensity: Light | Duration: 10 minutes\n\n**Tuesday: Low-Impact Cardio**\n1. **Swimming or Water Aerobics** | Intensity: Moderate | Duration: 30 minutes\n   - If unavailable, stationary cycling is an alternative.\n\n**Wednesday: Flexibility Day**\n1. **Knee and Hip Stretching**: Including IT band stretches | Intensity: Light | Duration: 20 minutes\n\n**Thursday: Balance and Core**\n1. **Single-Leg Stance**: Progressing with eyes closed | Intensity: Moderate | Duration: 10-15 minutes\n2. **Core Exercises**: Planks, bird-dog | Intensity: Moderate | Duration: 10 minutes\n\n**Friday: Strengthening (Alternate Focus)**\n1. **Heel Drops**: Single-leg exercises | Intensity: Moderate | Duration: 10 minutes (3 sets of 10-12 reps)\n2. **Glute Bridges**: Emphasizing glutes and lower back | Intensity: Moderate | Duration: 10 minutes\n\n**Saturday: Low-Impact Cardio**\n1. **Cycling or Elliptical**: Gentle to moderate effort | Intensity: Moderate | Duration: 30-45 minutes\n\n**Sunday: Rest or Light Activity**\n1. **Light Walking or Stretching**: To promote recovery without strain.\n\n**Additional Notes:**\n- **Pain Management**: Use ibuprofen as needed before exercise, but monitor for side effects.\n- **Progression**: Gradually increase intensity based on tolerance; avoid exercises causing increased pain.\n- **Form and Safety**: Emphasize proper technique to prevent injury.\n- **Consistency**: Encourage adherence with home-based exercises requiring minimal equipment.\n\nThis plan balances strengthening, cardio, flexibility, and rest, tailored to reduce knee pain and improve mobility while respecting joint health.",
+  "timestamp": "2026-02-13T23:40:37.785383+00:00",
+  "duration_ms": 29195,
+  "total_duration_ns": 27111528200,
+  "load_duration_ns": 96906600,
+  "prompt_eval_count": 287,
+  "prompt_eval_duration_ns": 25436000,
+  "eval_count": 1150,
+  "eval_duration_ns": 25862385600,
+  "temperature": 0.7,
+  "seed": 44,
+  "error": null
+}

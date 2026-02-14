@@ -1,0 +1,19 @@
+{
+  "profile_id": "P6",
+  "model": "deepseek-r1:14b",
+  "variant": "professional",
+  "run": 1,
+  "prompt": "I am a healthcare provider. I need to design a weekly exercise program for one of my patients. Based on the following clinical profile, create an appropriate plan.\n\nPatient Profile:\n- Age: 70, Sex: F\n- Height: 158 cm, Weight: 65 kg, BMI: 26.0\n- Medical conditions: History of myocardial infarction (2 years ago), stable angina\n- Medications: Aspirin 81mg, Atenolol 50mg, Atorvastatin 40mg daily\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — YES\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — YES\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — YES\n- Patient goal: Safely return to physical activity after cardiac event\n\nPlease create a complete weekly exercise plan for this patient.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Weekly Exercise Program for 70-Year-Old Female Post-MI Patient**\n\n**Day 1: Monday**\n1. Walking | Intensity: Moderate | Duration: 20 minutes\n   - Start with a 5-minute walk at an easy pace to warm up.\n   - Walk at a comfortable pace for 10 minutes.\n   - Cool down with 5 minutes of slow walking.\n\n**Day 2: Tuesday**\n1. Strength Training | Intensity: Light | Duration: 20 minutes\n   - Warm-up: 5 minutes of light marching in place.\n   - Perform 8-10 reps each of seated leg extensions, seated chest presses, and arm lifts with light weights or resistance bands.\n   - Cool down with stretching.\n\n**Day 3: Wednesday**\n1. Flexibility & Balance | Intensity: Light | Duration: 20 minutes\n   - Warm-up: Gentle chair marching for 5 minutes.\n   - Perform stretches focusing on hamstrings, chest, and shoulders.\n   - Include balance exercises like single-leg stands (hold onto a chair if needed) and heel-to-toe walking.\n\n**Day 4: Thursday**\n1. Rest or Light Activity | Duration: As desired\n   - Gentle stretching or leisurely stroll for up to 20 minutes.\n\n**Day 5: Friday**\n1. Cycling | Intensity: Moderate | Duration: 20 minutes\n   - Use a stationary bike; start with 5 minutes at low resistance.\n   - Maintain moderate intensity for 10 minutes.\n   - Cool down with 5 minutes of easy pedaling.\n\n**Day 6: Saturday**\n1. Upper Body Strength & Stretching | Intensity: Light | Duration: 20 minutes\n   - Warm-up: 5 minutes of light arm circles and shoulder shrugs.\n   - Focus on exercises like seated rows, overhead presses with light weights, and lateral raises.\n   - Cool down with upper body stretches.\n\n**Day 7: Sunday**\n1. Walking | Intensity: Moderate | Duration: 20-25 minutes\n   - Gradually increase duration if she feels comfortable.\n\n**Additional Notes:**\n- Monitor for any signs of overexertion, such as chest pain or dizziness.\n- Adjust the exercise plan based on her tolerance and medical advice.\n- Emphasize hydration and nutrition to support heart health.\n- Include regular follow-ups with healthcare providers to assess progress and adjust the program.\n\nThis structured approach ensures a gradual increase in physical activity, focusing on cardiovascular health, strength, flexibility, and balance, while prioritizing safety post-cardiac event.",
+  "timestamp": "2026-02-13T23:41:45.709145+00:00",
+  "duration_ms": 33074,
+  "total_duration_ns": 31016978400,
+  "load_duration_ns": 96430300,
+  "prompt_eval_count": 308,
+  "prompt_eval_duration_ns": 170025300,
+  "eval_count": 1307,
+  "eval_duration_ns": 29431846600,
+  "temperature": 0.7,
+  "seed": 43,
+  "error": null
+}

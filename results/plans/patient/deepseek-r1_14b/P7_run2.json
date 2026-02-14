@@ -1,0 +1,19 @@
+{
+  "profile_id": "P7",
+  "model": "deepseek-r1:14b",
+  "variant": "patient",
+  "run": 2,
+  "prompt": "I need a personalized weekly exercise program and I'm looking for professional guidance.\n\nHere is my profile:\n- Age: 30, Sex: M\n- Height: 182 cm, Weight: 80 kg, BMI: 24.2\n- Medical conditions: None\n- Medications: None\n- Current activity level: High (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — NO\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Goal: Enhance endurance and strength for recreational sports\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Personalized Weekly Exercise Program**\n\n**Day 1: Endurance Focus**\n1. Interval Training (Run/Cycle) | Intensity: Vigorous | Duration: 60 minutes\n   - Warm-up: 5 minutes\n   - High-Intensity Interval: Alternate between 30 seconds of maximum effort and 1 minute of moderate recovery for 20 intervals.\n   - Cool-down: 5 minutes\n\n**Day 2: Lower Body Strength**\n1. Back Squat | Intensity: Moderate | Duration: 4 sets of 8 reps\n2. Deadlifts | Intensity: Moderate | Duration: 4 sets of 6 reps\n3. Lunges | Intensity: Moderate | Duration: 3 sets of 10 reps per leg\n4. Calf Raises | Intensity: Moderate | Duration: 3 sets of 15 reps\n\n**Day 3: Active Recovery & Flexibility**\n1. Light Cardio (Walking or Cycling) | Intensity: Light | Duration: 30 minutes\n2. Stretching Routine | Focus on all major muscle groups | Duration: 20-30 minutes\n3. Yoga Flow | Emphasize flexibility and balance | Duration: 20-30 minutes\n\n**Day 4: Upper Body Strength**\n1. Bench Press | Intensity: Moderate | Duration: 4 sets of 8 reps\n2. Pull-Ups or Lat Pulldowns | Intensity: Moderate | Duration: 4 sets of 8 reps\n3. Dumbbell Shoulder Press | Intensity: Moderate | Duration: 3 sets of 10 reps\n4. Bicep and Tricep Workouts (e.g., curls, dips) | Intensity: Moderate | Duration: 2 sets each\n\n**Day 5: Endurance & Core**\n1. Steady-State Cardio (Run/Cycle/Swim) | Intensity: Vigorous | Duration: 45-60 minutes\n   - Maintain a moderate pace to build endurance\n2. Plank Workout | Intensity: Moderate | Duration: 3 sets of 60 seconds hold\n3. Russian Twists | Intensity: Moderate | Duration: 3 sets of 15 reps per side\n\n**Additional Notes and Recommendations:**\n- **Hydration:** Drink plenty of water throughout the day, especially before, during, and after workouts.\n- **Nutrition:** Maintain a balanced diet rich in lean proteins, complex carbs, healthy fats, fruits, and vegetables to support muscle recovery and growth.\n- **Sleep:** Aim for 7-9 hours of quality sleep each night to aid in recovery and overall health.\n- **Progress Tracking:** Keep track of your workouts, including weights lifted, reps completed, and distances covered. Adjust as needed based on progress and how you feel.\n- **Listen to Your Body:** If you experience any unusual fatigue or soreness, consider taking an extra day of rest or modifying your workout intensity.\n\nThis program is designed to enhance both endurance and strength while allowing adequate recovery time. Enjoy your workouts and stay consistent!",
+  "timestamp": "2026-02-13T23:15:15.889877+00:00",
+  "duration_ms": 34205,
+  "total_duration_ns": 32146994200,
+  "load_duration_ns": 102628100,
+  "prompt_eval_count": 253,
+  "prompt_eval_duration_ns": 25730000,
+  "eval_count": 1313,
+  "eval_duration_ns": 30638677800,
+  "temperature": 0.7,
+  "seed": 44,
+  "error": null
+}

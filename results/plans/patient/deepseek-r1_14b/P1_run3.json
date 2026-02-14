@@ -1,0 +1,19 @@
+{
+  "profile_id": "P1",
+  "model": "deepseek-r1:14b",
+  "variant": "patient",
+  "run": 3,
+  "prompt": "I need a personalized weekly exercise program and I'm looking for professional guidance.\n\nHere is my profile:\n- Age: 25, Sex: M\n- Height: 178 cm, Weight: 75 kg, BMI: 23.7\n- Medical conditions: None\n- Medications: None\n- Current activity level: High (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — NO\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Goal: Maintain fitness and improve athletic performance\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Personalized Weekly Exercise Program**\n\n**Monday: Endurance Training**\n- **Exercise**: Running or Cycling\n- **Intensity**: Vigorous\n- **Duration**: 60 minutes\n- **Focus**: Maintain cardiovascular fitness with interval training (e.g., sprints, steady pace).\n\n**Tuesday: Upper Body Strength Training**\n- **Exercises**: Push-ups, Pull-ups, Dumbbell Bench Press, Bent-Over Rows\n- **Intensity**: Vigorous\n- **Duration**: 60 minutes\n- **Focus**: Build upper body strength with a mix of compound and isolation exercises.\n\n**Wednesday: Power Training**\n- **Exercises**: Box Jumps, Depth Jumps, Medicine Ball Throws, Plyometric Push-Ups\n- **Intensity**: High (Vigorous)\n- **Duration**: 30 minutes\n- **Focus**: Enhance explosiveness with explosive movements.\n\n**Thursday: Lower Body Strength Training**\n- **Exercises**: Squats, Deadlifts, Lunges, Leg Press\n- **Intensity**: Vigorous\n- **Duration**: 60 minutes\n- **Focus**: Strengthen lower body muscles for athletic performance.\n\n**Friday: Flexibility & Mobility**\n- **Activities**: Dynamic Stretching (e.g., leg swings), Static Stretching (hamstrings, quads)\n- **Intensity**: Moderate\n- **Duration**: 45 minutes\n- **Focus**: Improve flexibility and recovery with a mix of dynamic and static stretches.\n\n**Saturday: Sport-Specific/Functional Training**\n- **Exercises**: Agility Drills, Cone Drills, Medicine Ball Slams, Kettlebell Swings\n- **Intensity**: Moderate to Vigorous\n- **Duration**: 60 minutes\n- **Focus**: Enhance sport-specific skills and functional movements.\n\n**Sunday: Rest or Active Recovery**\n- **Activity**: Light walking, Yoga, Stretching\n- **Intensity**: Light\n- **Duration**: 30-45 minutes\n- **Focus**: Allow the body to recover with gentle activities.\n\n**Additional Notes:**\n- **Warm-Up & Cool Down**: Include a 10-minute warm-up and cool-down for each session.\n- **Core Work**: Incorporate core exercises (e.g., Plank, Russian Twists) into strength training days.\n- **Nutrition & Recovery**: Prioritize proper nutrition, hydration, and sleep to optimize recovery.\n- **Progress Tracking**: Monitor progress through metrics like time, weight lifted, or reps to stay motivated.\n\nThis plan balances endurance, strength, power, flexibility, and sport-specific elements, ensuring a well-rounded approach to fitness and athletic performance. Adjustments can be made based on his preferences and feedback.",
+  "timestamp": "2026-02-13T23:05:25.355425+00:00",
+  "duration_ms": 33691,
+  "total_duration_ns": 31646098100,
+  "load_duration_ns": 103876000,
+  "prompt_eval_count": 251,
+  "prompt_eval_duration_ns": 25147500,
+  "eval_count": 1312,
+  "eval_duration_ns": 30154383500,
+  "temperature": 0.7,
+  "seed": 45,
+  "error": null
+}

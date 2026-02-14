@@ -1,0 +1,19 @@
+{
+  "profile_id": "P4",
+  "model": "deepseek-r1:14b",
+  "variant": "patient",
+  "run": 1,
+  "prompt": "I need a personalized weekly exercise program and I'm looking for professional guidance.\n\nHere is my profile:\n- Age: 60, Sex: F\n- Height: 160 cm, Weight: 85 kg, BMI: 33.2\n- Medical conditions: Type 2 diabetes, obesity (BMI 33.2)\n- Medications: Metformin 1000mg twice daily\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — YES\n  Q5: Currently taking medication — YES\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Goal: Manage blood sugar levels and lose weight through exercise\n\nPlease create a complete weekly exercise plan that is appropriate for me.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "**Personalized Weekly Exercise Program**\n\n**Monday: Light Cardio**\n1. Walking | Intensity: Moderate | Duration: 30 minutes\n   - Include a warm-up and cool-down of 5 minutes each.\n\n**Tuesday: Strength Training**\n1. Resistance Band Exercises (Leg Press, Chest Press) | Intensity: Moderate | Duration: 20 minutes\n   - Focus on 8-10 reps per exercise, with proper form.\n\n**Wednesday: Flexibility & Stretching**\n1. Stretching Routine (Hamstrings, Quads, Chest, Shoulders) | Intensity: Light | Duration: 15 minutes\n   - Hold each stretch for about a minute.\n\n**Thursday: Light Cardio (Cycling)**\n1. Stationary or Outdoor Cycling | Intensity: Moderate | Duration: 30 minutes\n   - Use a low-intensity pace to maintain comfort.\n\n**Friday: Core Strengthening**\n1. Planks, Crunches, Bird-Dog | Intensity: Moderate | Duration: 20 minutes\n   - Focus on controlled movements for stability.\n\n**Saturday: Moderate-Intensity Activity (Swimming)**\n1. Water Aerobics or Swimming | Intensity: Moderate | Duration: 30 minutes\n   - Enjoy the low-impact nature of water exercises.\n\n**Sunday: Light Activity & Balance Practice**\n1. Gardening, Walking, or Tai Chi | Intensity: Light | Duration: 20-30 minutes\n   - Incorporate balance exercises like single-leg stands if comfortable.\n\n**Additional Notes:**\n- **Blood Sugar Monitoring:** Check blood glucose before and after exercise.\n- **Hydration:** Stay well-hydrated throughout the day, especially during workouts.\n- **Footwear:** Wear supportive, cushioned shoes for all activities.\n- **Consultation:** Before starting this program, consult her healthcare provider to ensure suitability.\n\nThis plan balances aerobic, strength, flexibility, and balance exercises while considering her health conditions and low activity level. Adjustments can be made as her fitness improves.",
+  "timestamp": "2026-02-13T23:09:04.149204+00:00",
+  "duration_ms": 26184,
+  "total_duration_ns": 24115843000,
+  "load_duration_ns": 99141000,
+  "prompt_eval_count": 276,
+  "prompt_eval_duration_ns": 130838300,
+  "eval_count": 1010,
+  "eval_duration_ns": 22825035300,
+  "temperature": 0.7,
+  "seed": 43,
+  "error": null
+}

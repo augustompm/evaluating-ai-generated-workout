@@ -1,0 +1,19 @@
+{
+  "profile_id": "P2",
+  "model": "llama3.1:8b",
+  "variant": "professional",
+  "run": 1,
+  "prompt": "I am a healthcare provider. I need to design a weekly exercise program for one of my patients. Based on the following clinical profile, create an appropriate plan.\n\nPatient Profile:\n- Age: 35, Sex: F\n- Height: 165 cm, Weight: 62 kg, BMI: 22.8\n- Medical conditions: None (sedentary lifestyle)\n- Medications: None\n- Current activity level: Low (based on IPAQ-SF)\n- PAR-Q+ responses:\n  Q1: Heart condition or high blood pressure — NO\n  Q2: Chest pain during physical activity — NO\n  Q3: Dizziness or loss of consciousness — NO\n  Q4: Chronic medical condition — NO\n  Q5: Currently taking medication — NO\n  Q6: Bone or joint problem — NO\n  Q7: Doctor prescribing supervised activity — NO\n- Patient goal: Start a regular exercise routine to improve general health\n\nPlease create a complete weekly exercise plan for this patient.\n\nPresent your plan using this format for each day:\n\n**[Day Name]**\n1. [Exercise Name] | Intensity: [Light/Moderate/Vigorous] | Duration: [X] minutes\n2. ...\n\nAfter the weekly plan, include any additional notes or recommendations.",
+  "response": "Based on the patient's profile and goal, I've created a gentle and progressive exercise program to help her start a regular routine.\n\n**Monday**\n1. Brisk Walking | Intensity: Moderate | Duration: 30 minutes\n2. Seated Neck Stretch | Duration: 10 seconds per side (3 sets)\n3. Shoulder Rolls | Duration: 10 repetitions (3 sets)\n\n**Tuesday**\n1. Bodyweight Squats | Intensity: Light | Duration: 12 repetitions (3 sets of 3)\n2. Calf Raises | Intensity: Light | Duration: 15 repetitions (3 sets)\n3. Seated Forward Fold | Duration: 30 seconds\n\n**Wednesday**\n Rest day or active recovery (e.g., light yoga or stretching)\n\n**Thursday**\n1. Brisk Walking | Intensity: Moderate | Duration: 35 minutes\n2. Wall Push-Ups | Intensity: Light | Duration: 10 repetitions (3 sets)\n3. Seated Leg Raises | Duration: 12 repetitions (3 sets per leg)\n\n**Friday**\n1. Cycling (stationary bike or outdoor) | Intensity: Moderate | Duration: 25 minutes\n2. Seated Shoulder Blade Squeeze | Duration: 10 repetitions (3 sets)\n3. Ankle Rotations | Duration: 10 repetitions (3 sets)\n\n**Saturday**\n1. Brisk Walking | Intensity: Moderate | Duration: 40 minutes\n2. Step-Ups (using stairs or a step) | Intensity: Light | Duration: 12 repetitions (3 sets per leg)\n3. Seated Cat-Cow Stretch | Duration: 30 seconds\n\n**Sunday**\n Rest day or active recovery (e.g., light yoga or stretching)\n\nAdditional notes and recommendations:\n\n* Start with shorter exercise sessions and gradually increase duration as the patient becomes more comfortable.\n* Incorporate proper warm-up and cool-down routines, including dynamic stretching and gentle mobilizations.\n* Emphasize proper posture, breathing, and technique throughout exercises.\n* Monitor progress and adjust the plan as needed to avoid injury or discomfort.\n* Encourage the patient to listen to their body and rest when necessary.\n* Consider incorporating a pedometer or fitness tracker to track daily step count and provide motivation.\n* Gradually introduce new exercises or activities as the patient becomes more comfortable with the routine.\n* Schedule regular follow-ups to review progress, address any concerns, and make adjustments to the plan.\n\nRemember to review and update the plan based on the patient's feedback and any changes in their medical profile or activity level.",
+  "timestamp": "2026-02-13T22:38:08.405214+00:00",
+  "duration_ms": 9187,
+  "total_duration_ns": 7118890900,
+  "load_duration_ns": 126189700,
+  "prompt_eval_count": 275,
+  "prompt_eval_duration_ns": 75369100,
+  "eval_count": 521,
+  "eval_duration_ns": 6692204900,
+  "temperature": 0.7,
+  "seed": 43,
+  "error": null
+}
