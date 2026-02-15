@@ -1,6 +1,6 @@
 profile_id,model,variant,run,safety_score,fitt_score,concordance_score,parse_success,mapping_rate,S1_passed,S1_applicable,S2_passed,S2_applicable,S3_passed,S3_applicable,S4_passed,S4_applicable,S5_passed,S5_applicable,C1_passed,C1_applicable,C2_passed,C2_applicable,C3_passed,C3_applicable,C4_passed,C4_applicable,C5_passed,C5_applicable,C6_passed,C6_applicable,G1_passed,G1_applicable,G2_passed,G2_applicable,G3_passed,G3_applicable,G4_passed,G4_applicable
 P1,alibayram/medgemma:4b,patient,1,1.0,1.0,0.833,True,0.684,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.5,True,1.0,False
-P1,alibayram/medgemma:4b,patient,2,1.0,1.0,0.933,True,0.446,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.8,True,1.0,False
+P1,alibayram/medgemma:4b,patient,2,1.0,1.0,0.933,True,0.439,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.8,True,1.0,False
 P1,alibayram/medgemma:4b,patient,3,0.895,1.0,0.857,True,0.655,1.0,False,0.895,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.571,True,1.0,False
 P2,alibayram/medgemma:4b,patient,1,1.0,1.0,0.762,True,0.933,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.286,True,1.0,False
 P2,alibayram/medgemma:4b,patient,2,1.0,1.0,0.905,True,1.0,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.714,True,1.0,False
@@ -24,10 +24,10 @@ P8,alibayram/medgemma:4b,patient,1,1.0,1.0,0.65,True,1.0,1.0,True,1.0,True,1.0,F
 P8,alibayram/medgemma:4b,patient,2,1.0,1.0,0.896,True,0.833,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.583,True,1.0,True
 P8,alibayram/medgemma:4b,patient,3,1.0,1.0,0.917,True,0.9,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.667,True,1.0,True
 P1,deepseek-r1:14b,patient,1,0.941,1.0,0.804,True,0.548,1.0,False,0.941,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.412,True,1.0,False
-P1,deepseek-r1:14b,patient,2,1.0,1.0,0.85,True,0.87,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.55,True,1.0,False
+P1,deepseek-r1:14b,patient,2,1.0,1.0,0.85,True,0.833,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.55,True,1.0,False
 P1,deepseek-r1:14b,patient,3,1.0,1.0,1.0,True,0.071,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,1.0,True,1.0,False
 P2,deepseek-r1:14b,patient,1,1.0,0.833,0.758,True,0.846,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,0.0,True,1.0,True,1.0,True,1.0,True,0.273,True,1.0,False
-P2,deepseek-r1:14b,patient,2,1.0,1.0,0.833,True,0.222,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.5,True,1.0,False
+P2,deepseek-r1:14b,patient,2,1.0,1.0,0.833,True,0.263,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.5,True,1.0,False
 P2,deepseek-r1:14b,patient,3,1.0,1.0,0.778,True,0.786,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.333,True,1.0,False
 P3,deepseek-r1:14b,patient,1,1.0,1.0,0.891,True,0.8,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.562,True,1.0,True
 P3,deepseek-r1:14b,patient,2,1.0,1.0,0.925,True,0.952,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.7,True,1.0,True
@@ -132,7 +132,7 @@ P4,deepseek-r1:14b,patient_cleared,1,1.0,1.0,0.893,True,0.875,1.0,True,1.0,True,
 P4,deepseek-r1:14b,patient_cleared,2,1.0,1.0,0.853,True,0.895,1.0,True,1.0,True,1.0,False,1.0,True,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.412,True,1.0,True
 P4,deepseek-r1:14b,patient_cleared,3,1.0,1.0,0.946,True,0.958,1.0,True,1.0,True,1.0,False,1.0,True,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.783,True,1.0,True
 P5,deepseek-r1:14b,patient_cleared,1,1.0,1.0,0.75,True,0.476,1.0,True,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.0,True,1.0,True
-P5,deepseek-r1:14b,patient_cleared,2,1.0,1.0,0.917,True,1.0,1.0,True,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.667,True,1.0,True
+P5,deepseek-r1:14b,patient_cleared,2,1.0,1.0,0.917,True,0.923,1.0,True,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.667,True,1.0,True
 P5,deepseek-r1:14b,patient_cleared,3,1.0,1.0,0.55,True,0.455,1.0,True,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,0.2,True,1.0,True
 P6,deepseek-r1:14b,patient_cleared,1,1.0,1.0,0.577,True,0.929,1.0,True,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.0,True,1.0,True,0.308,True,1.0,True
 P6,deepseek-r1:14b,patient_cleared,2,1.0,1.0,0.75,True,0.0,1.0,True,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.0,True,1.0,True,1.0,True,1.0,True
@@ -162,7 +162,7 @@ P6,llama3.1:8b,patient_cleared,1,1.0,0.0,0.25,False,0.0,1.0,True,1.0,True,1.0,Fa
 P6,llama3.1:8b,patient_cleared,2,1.0,0.0,0.25,False,0.0,1.0,True,1.0,True,1.0,False,1.0,False,1.0,False,0.0,True,0.0,True,0.0,True,0.0,True,0.0,True,0.0,True,0.0,True,0.0,True,1.0,True,0.0,True
 P6,llama3.1:8b,patient_cleared,3,1.0,0.0,0.25,False,0.0,1.0,True,1.0,True,1.0,False,1.0,False,1.0,False,0.0,True,0.0,True,0.0,True,0.0,True,0.0,True,0.0,True,0.0,True,0.0,True,1.0,True,0.0,True
 P7,llama3.1:8b,patient_cleared,1,1.0,1.0,0.75,True,0.706,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.25,True,1.0,False
-P7,llama3.1:8b,patient_cleared,2,1.0,1.0,0.762,True,0.438,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.286,True,1.0,False
+P7,llama3.1:8b,patient_cleared,2,1.0,1.0,0.762,True,0.467,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.286,True,1.0,False
 P7,llama3.1:8b,patient_cleared,3,1.0,1.0,0.81,True,0.778,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.429,True,1.0,False
 P8,llama3.1:8b,patient_cleared,1,1.0,1.0,0.542,True,0.923,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.0,True,1.0,True,0.167,True,1.0,True
 P8,llama3.1:8b,patient_cleared,2,1.0,1.0,0.809,True,0.944,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.235,True,1.0,True
@@ -235,7 +235,7 @@ P6,deepseek-r1:14b,professional,2,1.0,1.0,0.794,True,0.895,1.0,True,1.0,True,1.0
 P6,deepseek-r1:14b,professional,3,1.0,1.0,0.35,True,0.714,1.0,True,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.0,True,0.0,True,0.4,True,1.0,True
 P7,deepseek-r1:14b,professional,1,1.0,1.0,0.822,True,0.6,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.467,True,1.0,False
 P7,deepseek-r1:14b,professional,2,1.0,1.0,1.0,True,0.391,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,1.0,True,1.0,False
-P7,deepseek-r1:14b,professional,3,0.909,1.0,0.879,True,0.355,1.0,False,0.909,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.636,True,1.0,False
+P7,deepseek-r1:14b,professional,3,0.909,1.0,0.879,True,0.367,1.0,False,0.909,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.636,True,1.0,False
 P8,deepseek-r1:14b,professional,1,1.0,1.0,0.925,True,0.909,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.7,True,1.0,True
 P8,deepseek-r1:14b,professional,2,1.0,1.0,0.812,True,0.3,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.25,True,1.0,True
 P8,deepseek-r1:14b,professional,3,1.0,1.0,0.889,True,1.0,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.556,True,1.0,True
@@ -285,5 +285,5 @@ P7,qwen2.5:14b,professional,1,1.0,1.0,0.714,True,0.636,1.0,False,1.0,True,1.0,Fa
 P7,qwen2.5:14b,professional,2,1.0,0.8,0.933,True,0.556,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,0.0,True,1.0,False,1.0,True,1.0,True,0.8,True,1.0,False
 P7,qwen2.5:14b,professional,3,1.0,1.0,0.846,True,0.867,1.0,False,1.0,True,1.0,False,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,1.0,True,1.0,True,0.538,True,1.0,False
 P8,qwen2.5:14b,professional,1,1.0,1.0,0.875,True,0.6,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.5,True,1.0,True
-P8,qwen2.5:14b,professional,2,0.667,1.0,0.825,True,0.909,0.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.3,True,1.0,True
+P8,qwen2.5:14b,professional,2,0.667,1.0,0.841,True,0.917,0.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.364,True,1.0,True
 P8,qwen2.5:14b,professional,3,1.0,1.0,0.883,True,0.938,1.0,True,1.0,True,1.0,False,1.0,False,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,0.533,True,1.0,True
